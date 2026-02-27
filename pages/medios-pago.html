@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Medios de pago</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Pagá tus números 🎟️</h1>
+        <div class="cards">
+
+            <!-- MIDINERO -->
+            <div class="card midinero">
+                <h2>Midinero</h2>
+                <h3><strong>Titular:</strong> Emmy Lisett Machado de Oliveira Irigoita</h3>
+                <p>Transferí al siguiente número de cuenta:</p>
+                <div class="numero" id="numMidinero">3701435149</div>
+                <button onclick="copiar('numMidinero','msg1')">Copiar número</button>
+                
+                <div class="mensaje" id="msg1">¡Número copiado!</div>
+            </div>
+
+            <!-- EBROU -->
+            <div class="card ebrou">
+                <h2>eBROU</h2>
+                <h3><strong>Titular:</strong> Emmy Machado de Oliveira</h3>
+                <p>Transferencia bancaria:</p>
+                <div class="numero" id="numEbrou">110837090-00001</div>
+                <button onclick="copiar('numEbrou','msg2')">Copiar cuenta</button>
+                <div class="mensaje" id="msg2">¡Cuenta copiada!</div>
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="../JS/app.js"></script>
+</body>
+
+</html>
